@@ -1,0 +1,79 @@
+@font-face {
+    font-family: comfortaa; /* Гарнитура шрифта */
+    src: local(comfortaa), url(10821.ttf); /* Для остальных браузеров */
+   }
+* {
+	font-family: "comfortaa", sans-serif;
+}
+#logo {
+	width: 135px; 
+	height: 50px; 
+	border: none;
+	background-color: white;
+	padding: 5px;
+	border-radius: 10px;
+	border: none;
+}
+body {
+	width:100%;
+	background: #85f6ff;
+	background: -webkit-linear-gradient(to right, #85c1ff, #efeff9);
+	background: linear-gradient(to right, #85c1ff, #efeff9);
+	
+	color: white;
+}
+.simple_href{
+	border-radius:0px;
+	border:none;
+	background: none;
+}
+.simple_href:hover{
+	color:red;
+	background:none;
+}
+a{
+	border-radius: 45px;
+	background-color: white;
+	padding: 6px;
+	outline: none;
+	cursor: pointer;
+	text-decoration: none;
+
+}
+
+hr{
+	color: blue;
+}
+#algo, #func{
+	margin-left: 20px;
+}
+#preview{
+	margin-left: 50%;
+}
+.t{
+	margin-left: 10px;
+}
+.pointed{
+	color: black;
+	background:white;
+	padding-top: 20px;
+	padding: 20px;
+	width: 40%;
+	height: 500px;
+	border-radius: 45px;
+	word-break: break-all;
+}
+listing{
+	border-radius: 40px;
+	color: blue;
+	background: white;
+	padding: 10px;
+	width: 30%;
+}
+a:hover{
+	background-color: #FFC371;
+}
+::selection{color: blue;}
+-moz-::selection{color: blue;}
+-webkit-::selection{color: blue;}
+-ms-::selection{color: blue;}
